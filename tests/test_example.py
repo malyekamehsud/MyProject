@@ -2,8 +2,8 @@ import unittest
 
 class TestApp(unittest.TestCase):
     def test_addition(self):
-        # A simple passing test
-        self.assertEqual(2 + 3, 5)
+        # This will fail: 2+3 is not 6
+        self.assertEqual(2 + 3, 6)
 
 if __name__ == "__main__":
     unittest.main()
